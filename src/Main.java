@@ -13,12 +13,17 @@ public class Main {
         System.out.print("Введите третье число: ");
         int c = scanner.nextInt();
 
-        if (a % 5 == 0 && b % 5 == 0 && c % 5 == 0) {
+        if (a % 5 == 0) {
             System.out.println("a = " + a);
+        }
+        if (b % 5 == 0) {
             System.out.println("b = " + b);
+        }
+        if (c % 5 == 0) {
             System.out.println("c = " + c);
-        } else {
-            System.out.println("Нет значений, кратных 5 ");
+        }
+        else {
+            System.out.println("Нет значений, кратных 5");
         }
 
         if (b > 0) {
