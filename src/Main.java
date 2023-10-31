@@ -22,7 +22,7 @@ public class Main {
         if (c % 5 == 0) {
             System.out.println("c = " + c);
         }
-        else {
+        else if (a % 5 != 0 && b % 5 != 0 && c % 5 !=0 ) {
             System.out.println("Нет значений, кратных 5");
         }
 
